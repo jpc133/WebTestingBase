@@ -1,5 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Coypu;
 
 namespace CoypuTestingSetup
 {
@@ -7,8 +8,17 @@ namespace CoypuTestingSetup
     public class UnitTest1
     {
         [TestMethod]
-        public void TestMethod1()
+        public void SelfTest()
         {
+            BrowserSession browser = CoypuHelper.setupTestEnviroment(true,"https://www.google.com");
+            string[,] data = FileHandling.readCSV("C:\\Users\\jonat\\Documents\\dataFile.csv");
+            for (int i = 0; i < data.GetLength(1); i++)
+            {
+                browser.Visit("https://www.bing.com");
+                browser.FindId("sb_form_q").SendKeys(data[0,i]);
+                browser.FindId("sb_form_go").Click();
+            }
+            browser.Dispose();
         }
     }
 }

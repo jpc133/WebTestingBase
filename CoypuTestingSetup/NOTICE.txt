@@ -1,0 +1,24 @@
+﻿Pure Test Automator V0.1
+NOTICE:
+
+This software is distributed without warranty or guarantee
+of function therefore the person using the software assumes
+the risks of running the software including any damage to
+any machine running the software or networked with the
+machine running the software.
+
+This software is an early prototype and so should not be
+redistributed unless it is being contributed to otherwise 
+it should not be redistributed allowed by the copyright
+holder shown below.
+
+The copyright holder shown below has the right to withdraw
+access to this software at any time for any reason. Should
+the copyright holder below decide to withdraw your access
+you should delete all copies of the software immediately.
+
+By using the software you are agreeing to the terms inside
+this file, if you don't agree with the terms you should
+not use the software.
+
+Copyright 2017 Jonathan Clarke
