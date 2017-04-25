@@ -1,5 +1,4 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Coypu;
 
 namespace CoypuTestingSetup
@@ -20,5 +19,17 @@ namespace CoypuTestingSetup
             }
             browser.Dispose();
         }
+
+
+        [TestMethod]
+        public void Test2()
+        {
+            //                                                    headless, URL
+            BrowserSession browser = CoypuHelper.setupTestEnviroment(false, "https://www.google.com");
+            browser.Visit("https://www.google.com");
+
+            browser.Dispose();
+        }
+
     }
 }
