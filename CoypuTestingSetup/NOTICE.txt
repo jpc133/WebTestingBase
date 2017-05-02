@@ -1,4 +1,4 @@
-﻿Pure Test Automator V0.1
+﻿Coypu helper
 NOTICE:
 
 This software is distributed without warranty or guarantee

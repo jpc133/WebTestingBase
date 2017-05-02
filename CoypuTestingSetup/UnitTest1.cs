@@ -1,5 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Coypu;
+using System.Threading;
 
 namespace CoypuTestingSetup
 {

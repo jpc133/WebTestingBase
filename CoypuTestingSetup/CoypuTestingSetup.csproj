@@ -69,6 +69,7 @@
   <ItemGroup>
     <Compile Include="CoypuHelper.cs" />
     <Compile Include="FileHandling.cs" />
+    <Compile Include="HeadlessProfile.cs" />
     <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
