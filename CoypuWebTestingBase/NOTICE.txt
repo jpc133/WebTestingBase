@@ -1,4 +1,4 @@
-﻿Coypu helper
+﻿Coypu helper project
 NOTICE:
 
 This software is distributed without warranty or guarantee
@@ -9,8 +9,8 @@ machine running the software.
 
 This software is an early prototype and so should not be
 redistributed unless it is being contributed to otherwise 
-it should not be redistributed allowed by the copyright
-holder shown below.
+it should not be redistributed unless allowed by the 
+copyright holder shown below.
 
 The copyright holder shown below has the right to withdraw
 access to this software at any time for any reason. Should

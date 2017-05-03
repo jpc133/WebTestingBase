@@ -1,4 +1,7 @@
-﻿using Coypu.Drivers;
+﻿//Copyright 2017 Jonathan Clarke
+//Please see NOTICE.txt, if NOTICE.txt is not present
+//email jonathan.clarke73@gmail.com for a copy
+using Coypu.Drivers;
 using Coypu.Drivers.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Remote;

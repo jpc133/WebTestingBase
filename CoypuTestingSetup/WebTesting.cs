@@ -1,4 +1,7 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿//Copyright 2017 Jonathan Clarke
+//Please see NOTICE.txt, if NOTICE.txt is not present
+//email jonathan.clarke73@gmail.com for a copy
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Coypu;
 using CoypuTestingSetup;
 
@@ -7,6 +10,7 @@ namespace TestExample
     [TestClass]
     public class UnitTest1
     {
+        //Requires selenium server to be running manually
         [TestMethod]
         public void SelfTest()
         {
@@ -20,7 +24,6 @@ namespace TestExample
             }
             browser.Dispose();
         }
-
 
         [TestMethod]
         public void Test2()
